@@ -48,7 +48,7 @@ public class StateMachineTest {
         sc.actionA();
         assertTrue(sc.isAccept());
     }
-    
+
     /*
      * Test Sequence: BAB
      */
@@ -59,7 +59,7 @@ public class StateMachineTest {
         sc.actionB();
         assertTrue(sc.isAccept());
     }
-    
+
     /*
      * Test Sequence: AAB
      */
@@ -70,7 +70,7 @@ public class StateMachineTest {
         sc.actionB();
         assertFalse(sc.isAccept());
     }
-    
+
     /*
      * Test Sequence: BAA
      */

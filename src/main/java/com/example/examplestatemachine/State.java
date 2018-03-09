@@ -1,6 +1,7 @@
 package com.example.examplestatemachine;
 
 public abstract class State {
+
     protected StateContext sc;
     protected boolean accept = false;
     
@@ -11,4 +12,5 @@ public abstract class State {
     public boolean isAccept() {
         return this.accept;
     }
+
 }
